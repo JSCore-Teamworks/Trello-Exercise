@@ -16,3 +16,10 @@ tr:nth-child(even) {
 span{
 	padding: 5px;
 }
+.carousel {
+    margin-top: 12px;
+}
+.h1, h1 {
+    font-size: 36px;
+    text-align: center;
+}
