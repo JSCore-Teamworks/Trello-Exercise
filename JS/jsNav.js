@@ -16,25 +16,25 @@ function test (){
     let careers = document.createElement('DIV')
     careers.innerHTML='Careers'
     careers.addEventListener('click',()=>{
-        window.location.href = '/careers.html'
+        window.location.href = 'careers.html'
     })
 
     let contacts = document.createElement('DIV')
     contacts.innerHTML='Contacts'
     contacts.addEventListener('click',()=>{
-        window.location.href = '/contacts.html'
+        window.location.href = 'contacts.html'
     })
 
     let portfolio = document.createElement('DIV')
     portfolio.innerHTML='Portfolio'
     portfolio.addEventListener('click',()=>{
-        window.location.href = '/portfolio.html'
+        window.location.href = 'portfolio.html'
     })
 
     let service = document.createElement('DIV')
     service.innerHTML='Services'
     service.addEventListener('click',()=>{
-        window.location.href = '/services.html'
+        window.location.href = 'services.html'
     })
 
     restOfTheLinks.appendChild(careers)
