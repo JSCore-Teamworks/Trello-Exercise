@@ -1,40 +1,41 @@
 function test (){
     console.log("in")
 
-    let navBarContainer = document.createElement('DIV')
+    let navBarContainer = document.createElement('span')
 
 
-    let home = document.createElement('DIV')
+    let home = document.createElement('span')
     let logo = document.createElement('IMG')
     logo.setAttribute('src','imgs/logo.jpeg')
 
     home.appendChild(logo)
 
-    let restOfTheLinks = document.createElement('DIV')
+    let restOfTheLinks = document.createElement('span')
 
 
-    let careers = document.createElement('DIV')
+
+    let careers = document.createElement('span')
     careers.innerHTML='Careers'
     careers.addEventListener('click',()=>{
-        window.location.href = '/careers.html'
+        window.location.href = 'careers.html'
     })
 
-    let contacts = document.createElement('DIV')
+    let contacts = document.createElement('span')
     contacts.innerHTML='Contacts'
     contacts.addEventListener('click',()=>{
-        window.location.href = '/contacts.html'
+        window.location.href = 'contacts.html'
     })
 
-    let portfolio = document.createElement('DIV')
+    let portfolio = document.createElement('span')
     portfolio.innerHTML='Portfolio'
     portfolio.addEventListener('click',()=>{
-        window.location.href = '/portfolio.html'
+        window.location.href = 'portfolio.html'
     })
 
-    let service = document.createElement('DIV')
+    let service = document.createElement('span')
     service.innerHTML='Services'
     service.addEventListener('click',()=>{
-        window.location.href = '/services.html'
+        window.location.href = 'services.html'
     })
 
     restOfTheLinks.appendChild(careers)
