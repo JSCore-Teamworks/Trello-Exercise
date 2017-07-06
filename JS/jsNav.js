@@ -14,6 +14,7 @@ function test (){
 
 
 
+
     let careers = document.createElement('span')
     careers.innerHTML='Careers'
     careers.addEventListener('click',()=>{
@@ -37,7 +38,20 @@ function test (){
     service.addEventListener('click',()=>{
         window.location.href = 'services.html'
     })
+    let about = document.createElement('span')
+    about.innerHTML='About'
+    about.addEventListener('click',()=>{
+        window.location.href = 'about.html'
+    })
+     let index = document.createElement('span')
+    index.innerHTML='Home'
+    index.addEventListener('click',()=>{
+        window.location.href = 'index.html'
+    })
 
+
+    restOfTheLinks.appendChild(index);
+    restOfTheLinks.appendChild(about);
     restOfTheLinks.appendChild(careers)
     restOfTheLinks.appendChild(contacts)
     restOfTheLinks.appendChild(portfolio)
